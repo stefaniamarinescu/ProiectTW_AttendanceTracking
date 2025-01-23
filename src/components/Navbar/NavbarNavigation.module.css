@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+    .nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav li {
+        margin: 0;
+        margin-left: 2rem;
+    }
+
+    .nav button {
+        padding: 0.5rem;
+        font-size: 1rem;
+        background: #ffc2a6;
+        border: none;
+        border-radius: 10px;
+        color: #14213d;
+        display: inline-block;
+        text-align: center;
+        min-width: 100px;
+    }
+
+
+        .nav button:hover,
+        .nav button:active {
+            cursor: pointer;
+            opacity: 0.75;
+        }

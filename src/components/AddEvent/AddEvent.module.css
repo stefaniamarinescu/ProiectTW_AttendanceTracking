@@ -1,0 +1,30 @@
+.mainContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: black;
+    border-radius: 20px;
+    background-color: beige;
+    height: 10rem;
+    margin-bottom: 2rem;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.input{
+    height: 2rem;
+    width: 20rem;
+    border-radius: 10px;
+}
+.buttonStyle {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background: #fca311;
+    border: none;
+    border-radius: 10px;
+    color: #14213d;
+  }

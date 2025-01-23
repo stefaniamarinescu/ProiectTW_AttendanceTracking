@@ -1,0 +1,43 @@
+.tableRow {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+  
+    height: fit-content;
+  }
+  
+  .tableRow:nth-child(2n) {
+    background-color: #f4f5fa;
+  }
+  
+  .tableCell {
+    padding: 1rem;
+  }
+  
+  .tableCell:not(:last-child) {
+    border-right: 1px solid #e5e5e5;
+  }
+  
+  /* First Element */
+  .tableCell:nth-child(1) {
+    width: 24%;
+  }
+  
+  /* Second Element */
+  .tableCell:nth-child(2) {
+    width: 24%;
+  }
+  
+  /* Third Element */
+  .tableCell:nth-child(3) {
+    width: 32%;
+  }
+  .tableCell:nth-child(4) {
+    width: 20%;
+  }
+  
+  .tableCell .actionBtn:hover {
+    cursor: pointer;
+  }
+  

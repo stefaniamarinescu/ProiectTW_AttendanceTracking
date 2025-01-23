@@ -1,0 +1,79 @@
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    width: 90%;
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #d3e5cf;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.control {
+    margin: 1rem 0;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+    .control label,
+    .control input {
+        display: block;
+    }
+
+    .control label {
+        font-weight: bold;
+        flex: 1;
+        color: #030304;
+        margin-bottom: 0.5rem;
+    }
+
+    .control input {
+        flex: 3;
+        font: inherit;
+        padding: 0.35rem 0.35rem;
+        border-radius: 6px;
+        border: 1px solid #e5e5e5;
+    }
+
+        .control input:focus {
+            outline: none;
+            border-color: #4f005f;
+            background: #f6dbfc;
+        }
+
+    .control.invalid input {
+        border-color: red;
+        background: #fbdada;
+    }
+
+.actions {
+    text-align: center;
+}
+
+    .actions button {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        background: #ffc2a6;
+        border: none;
+        border-radius: 10px;
+        color: #14213d;
+    }
+
+        .actions button:hover {
+            cursor: pointer;
+            opacity: 0.75;
+        }

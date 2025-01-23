@@ -1,0 +1,48 @@
+.mainContainer {
+    width: 60rem;
+    margin-bottom: 3rem;
+}
+
+.eventsBox {
+    height: 40rem;
+    background-color: #FFA5A1;
+    color: black;
+    border: none;
+    overflow-y: auto;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 20px;
+}
+
+.paragraph {
+    color: black;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+}
+
+.buttonStyle {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background: #fca311;
+    border: none;
+    border-radius: 10px;
+    color: #14213d;
+}
+
+    .buttonStyle:hover,
+    .buttonStyle:active {
+        cursor: pointer;
+        opacity: 0.75;
+    }
+
+.customToast {
+    margin-top: 4rem;
+}

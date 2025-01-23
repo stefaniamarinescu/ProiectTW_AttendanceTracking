@@ -1,0 +1,98 @@
+.transactionBox {
+    width: 100%;
+    height: 4rem;
+    background-color: beige;
+    margin-bottom: 1.2rem;
+    z-index: 99;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.popupContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #D3E5CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.closeIcon {
+    padding-right: 0.5rem;
+    margin-top: -1.2rem;
+    size: 100px;
+}
+
+.iconStyle {
+    cursor: pointer;
+    color: white;
+    position: fixed;
+    size: 100px;
+}
+
+.modal {
+    margin-top: 4rem;
+    color: white;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    pointer-events: auto;
+    width: 80%;
+    height: 50rem;
+    overflow-y: auto;
+    background-color: lightblue;
+    /* &::-webkit-scrollbar {
+      width: 12px;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: $popupColor;
+      border-radius: 10px;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+  
+    &::-webkit-scrollbar-thumb:hover {
+      background-color: #45a049;
+    }
+   */
+}
+
+.eventsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+
+
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.4rem;
+
+}
